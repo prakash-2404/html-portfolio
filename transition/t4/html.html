@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .lion{
+            margin-left: 40%;
+            margin-top: 10%;
+            height: 220px;
+            width: 220px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 6px solid #fff;
+        }
+        .lion img{
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            filter: grayscale(100%);
+            transition: 0.5s ease;
+            cursor: pointer;
+        }
+        .lion img:hover {
+            transform: scale(1.5);
+            filter: grayscale(0%);
+        }
+    </style>
+</head>
+<body>
+    <div class="lion">
+        <img src="lion.jpg">
+    </div><br><br>
+    <h1 style="text-align: center;">hover the Lion image for filter changing transition</h1>
+</body>
+</html>

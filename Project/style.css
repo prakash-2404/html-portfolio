@@ -1,0 +1,80 @@
+*{
+    font-family: 'Source Sans Pro',sans-serif;
+}
+body{
+    background-color: white;
+}
+h1{
+    padding-top: 10px;
+    font-weight: 1200;
+    text-align: center;
+}
+h1::after{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 6px;
+    background:  rgb(120, 67, 233);
+    left: 690px;
+    top: 65px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+p{
+    padding-top: 40px;
+    font-size: 20px;
+    color: rgb(94, 93, 93);
+}
+.top{
+    display: block;
+}
+.head{
+    margin-top: 5%;
+    display: inline;
+}
+img{
+    padding-left: 100px;
+    display: flex;
+    float: left;
+}
+.content{
+    line-height: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: left;
+    float: right;
+    width: 40%;
+}
+.content h3{
+    font-size: 26px;
+    font-weight: 600;
+}
+.content p{
+    font-size: 18px;
+}
+.content button{
+    margin-top: 7px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: aliceblue;
+    background-color: rgb(120, 67, 233);
+    width: 150px;
+    height: 45px;
+    outline: none;
+    border-radius: 7px;
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 1px;
+    line-height: 24px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.content button:hover{
+    margin-top: 0px;
+
+}
+.card1{
+    padding-top: 500px;
+    display: block;
+}

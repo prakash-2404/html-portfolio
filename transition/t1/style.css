@@ -1,0 +1,25 @@
+img {
+    margin-left:600px;
+    margin-top: 250px;
+    animation-name:heart ;
+    animation-duration:1.5s ;
+    animation-timing-function:none ;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes heart {
+    0%{
+        height: 120px;
+        width: 150px;
+    }
+    50%{
+        height: 240px;
+        width: 300px;
+    }
+    100%{
+        height: 120px;
+        width: 150px;
+    }
+    
+}
